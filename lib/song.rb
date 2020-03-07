@@ -13,7 +13,7 @@ class Song
   end
 
   def artist
-    @artist
+    Artist.all.select {|name| name.artist == self}
   end
 
   def artist_name
