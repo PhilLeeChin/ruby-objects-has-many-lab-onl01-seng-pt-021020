@@ -5,6 +5,7 @@ class Song
 
   def initialize(songs)
     @title = songs
+    @artist = artist
   end
 
   def self.all
