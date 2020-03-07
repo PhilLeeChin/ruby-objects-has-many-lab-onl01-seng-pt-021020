@@ -16,6 +16,6 @@ class Song
   end
 
   def name
-    songs
+    @title
   end
 end
