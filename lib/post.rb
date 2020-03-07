@@ -9,7 +9,7 @@ class Post
     @@all << self
   end
 
-  self.all
+  def self.all
     @@all
   end
 
