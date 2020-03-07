@@ -13,6 +13,10 @@ class Song
     @@all
   end
 
+  def name
+    @title
+  end
+
   def artist
     @artist
   end
@@ -21,7 +25,4 @@ class Song
     self.artist.name
   end
 
-  def name
-    @title
-  end
 end
